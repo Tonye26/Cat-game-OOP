@@ -15,4 +15,11 @@ class Cat:
         self.intelligence+=1
         self.energy-=5
     def play(self):
-        
+        self.energy-=5
+        self.weight-=1
+    def feed(self):
+        self.weight+=5
+    def sleep(self):
+        self.energy+=10
+    def stats(self):
+        print(self)
